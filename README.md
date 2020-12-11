@@ -13,7 +13,7 @@ The code was implemented on python3.7 and it uses the following python liblalies
 ## Setup
 **package installation**
 
-`pip install git+https://github.com/yuriuno/scaleheight-lifetime.git`
+`pip install git+https://github.com/yuriuno/ohirstar-scaleheight-lifetime.git`
 
 ## Data analysis
 
@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 from pylab import rcParams
 from mpl_toolkits.mplot3d import Axes3D
 from scipy import stats
-import scaleheight-lifeitme.scaleheight-lifetme as sl
+import ohirstar-scaleheight-lifeitme.ohirstar-scaleheight-lifetme as sl
 
 sh            = sl.ScaleHeight()
 NUMBER        = 3990
@@ -75,7 +75,7 @@ For example if you have *m*=3 maser sources vanished in *n*=100 samples after *d
 ```
 import numpy as np
 from scipy.special import comb
-import lifetime-scaleheight.lifetime-scaleheight as ls
+import ohirstar-lifetime-scaleheight.ohirstar-lifetime-scaleheight as ls
 
 M    = 30
 N    = 445
