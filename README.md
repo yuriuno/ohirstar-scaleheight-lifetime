@@ -75,7 +75,7 @@ For example if you have *m*=3 maser sources vanished in *n*=100 samples after *d
 ```
 import numpy as np
 from scipy.special import comb
-import ohirstar_lifetime_scaleheight.ohirstar_lifetime_scaleheight as ls
+import ohirstar_scaleheight_lifetime.ohirstar_scaleheight_lifetime as sl
 
 M    = 30
 N    = 445
