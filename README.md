@@ -53,23 +53,23 @@ print(format(p_value,'.3f'))
 # 3D(X,Y,Z) [kpc]
 sh.visualize(mxyz, mflux)
 ```
-<img width="500" alt="3dmodel" src="https://user-images.githubusercontent.com/49733387/101880194-da365a00-3bd5-11eb-902e-0e970a354806.png">
+<img width="450" alt="3dmodel" src="https://user-images.githubusercontent.com/49733387/101880194-da365a00-3bd5-11eb-902e-0e970a354806.png">
 
 ```
 # 2D(l,b) [deg]
 sh.visualize(mlb, mflux)
 ```
-<img width="500" alt="2dmodel" src="https://user-images.githubusercontent.com/49733387/101880254-ee7a5700-3bd5-11eb-9b02-3741a968b6cc.png">
+<img width="450" alt="2dmodel" src="https://user-images.githubusercontent.com/49733387/101880254-ee7a5700-3bd5-11eb-9b02-3741a968b6cc.png">
 
 ### 2. Lifetime
 #### 2.1 A most plausible lifetime 
 Lifetime of transient phenomenon such as the duration of OH masers associated with evolved stars <br>
 can be estimated by consideing the probability 
-<img src="https://latex.codecogs.com/gif.latex?P^m_n"/>
+<img src="https://latex.codecogs.com/gif.latex?P^m_n"/> <br>
 of detecting *m* dissapeared maser sources in *n* samples in <br> 
 a given amount of time; *dT* as demonstrated by [Engels and Jimenes-Esteban (2007)](https://arxiv.org/pdf/0710.1697.pdf). <br>
 <img src="https://latex.codecogs.com/gif.latex?P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}"/>
-For example if you have *m*=3 maser sources vanished in *n*=100 samples after *dT*=10 years, you will get the most prausible lifetime 333 years.
+For example if you have *m*=3 maser sources vanished in *n*=100 samples after *dT*=10 years, you will get the most prausible lifetime ~300 years.
 ```
 import numpy as np
 from scipy.special import comb
@@ -106,7 +106,7 @@ xscale = 'linear'
 type   = 'lifetime'
 lt.visualize(xscale,type)
 ```
-<img width="300" alt="lifetime" src="https://user-images.githubusercontent.com/49733387/101880602-89733100-3bd6-11eb-8a1e-4498e7994929.png">
+<img width="250" alt="lifetime" src="https://user-images.githubusercontent.com/49733387/101880602-89733100-3bd6-11eb-8a1e-4498e7994929.png">
 
 ```
 # Qnm
@@ -114,4 +114,4 @@ xscale = 'linear'
 type   = 'upper_limit'
 lt.visualize(xscale,type)
 ```
-<img width="300" alt="upperlimit" src="https://user-images.githubusercontent.com/49733387/101880623-909a3f00-3bd6-11eb-8df5-a1b2a5023c2e.png">
+<img width="250" alt="upperlimit" src="https://user-images.githubusercontent.com/49733387/101880623-909a3f00-3bd6-11eb-8df5-a1b2a5023c2e.png">
