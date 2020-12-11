@@ -53,13 +53,13 @@ print(format(p_value,'.3f'))
 # 3D(X,Y,Z) [kpc]
 sh.visualize(mxyz, mflux)
 ```
-<img width="1000" alt="3dmodel" src="https://user-images.githubusercontent.com/49733387/101880194-da365a00-3bd5-11eb-902e-0e970a354806.png">
+<img width="500" alt="3dmodel" src="https://user-images.githubusercontent.com/49733387/101880194-da365a00-3bd5-11eb-902e-0e970a354806.png">
 
 ```
 # 2D(l,b) [deg]
 sh.visualize(mlb, mflux)
 ```
-<img width="1000" alt="2dmodel" src="https://user-images.githubusercontent.com/49733387/101880254-ee7a5700-3bd5-11eb-9b02-3741a968b6cc.png">
+<img width="500" alt="2dmodel" src="https://user-images.githubusercontent.com/49733387/101880254-ee7a5700-3bd5-11eb-9b02-3741a968b6cc.png">
 
 ### 2. Lifetime
 #### 2.1 A most plausible lifetime 
@@ -106,7 +106,7 @@ xscale = 'linear'
 type   = 'lifetime'
 lt.visualize(xscale,type)
 ```
-<img width="496" alt="lifetime" src="https://user-images.githubusercontent.com/49733387/101880602-89733100-3bd6-11eb-8a1e-4498e7994929.png">
+<img width="300" alt="lifetime" src="https://user-images.githubusercontent.com/49733387/101880602-89733100-3bd6-11eb-8a1e-4498e7994929.png">
 
 ```
 # Qnm
@@ -114,4 +114,4 @@ xscale = 'linear'
 type   = 'upper_limit'
 lt.visualize(xscale,type)
 ```
-<img width="499" alt="upperlimit" src="https://user-images.githubusercontent.com/49733387/101880623-909a3f00-3bd6-11eb-8df5-a1b2a5023c2e.png">
+<img width="300" alt="upperlimit" src="https://user-images.githubusercontent.com/49733387/101880623-909a3f00-3bd6-11eb-8df5-a1b2a5023c2e.png">
