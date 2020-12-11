@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 from pylab import rcParams
 from mpl_toolkits.mplot3d import Axes3D
 from scipy import stats
-import scaleheight_lifeitme.scaleheight_lifetme as sl
+import scaleheight-lifeitme.scaleheight-lifetme as sl
 
 sh            = sl.ScaleHeight()
 NUMBER        = 3990
@@ -75,7 +75,7 @@ For example if you have *m*=3 maser sources vanished in *n*=100 samples after *d
 ```
 import numpy as np
 from scipy.special import comb
-import lifetime_scaleheight.lifetime_scaleheight as ls
+import lifetime-scaleheight.lifetime-scaleheight as ls
 
 M    = 30
 N    = 445
