@@ -1,4 +1,4 @@
-# ohirstar_scaleheight_lifetime
+# ohirstar-scaleheight-lifetime
 
 This ohirstar_scaleheight_lifetime module helps you estimate a plausible scale height and lifetime of stars.<br>
 The code was written during the investigation of the OH/IR stars distribution in the Galaxy ([Uno et al. 2020]()).
@@ -13,7 +13,7 @@ The code was implemented on python3.7 and it uses the following python liblalies
 ## Setup
 **package installation**
 
-`pip install git+https://github.com/yuriuno/ohirstar_scaleheight_lifetime.git`
+`pip install git+https://github.com/yuriuno/ohirstar-scaleheight-lifetime.git`
 
 ## Data analysis
 
@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 from pylab import rcParams
 from mpl_toolkits.mplot3d import Axes3D
 from scipy import stats
-import ohirstar_scaleheight_lifeitme.ohirstar_scaleheight_lifetme as sl
+import ohirstar-scaleheight-lifeitme.ohirstar-scaleheight-lifetme as sl
 
 sh            = sl.ScaleHeight()
 NUMBER        = 3990
@@ -75,7 +75,7 @@ For example if you have *m*=3 maser sources vanished in *n*=100 samples after *d
 ```
 import numpy as np
 from scipy.special import comb
-import ohirstar_scaleheight_lifetime.ohirstar_scaleheight_lifetime as sl
+import ohirstar-scaleheight-lifetime.ohirstar-scaleheight-lifetime as sl
 
 M    = 30
 N    = 445
