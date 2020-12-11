@@ -68,7 +68,7 @@ can be estimated by consideing the probability
 <img src="https://latex.codecogs.com/gif.latex?P^m_n"/> <br>
 of detecting *m* dissapeared maser sources in *n* samples in <br> 
 a given amount of time; *dT* as demonstrated by [Engels and Jimenes-Esteban (2007)](https://arxiv.org/pdf/0710.1697.pdf). <br>
-<img src="https://latex.codecogs.com/gif.latex?P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}"/>
+<img src="https://latex.codecogs.com/gif.latex?P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}"/> <br>
 For example if you have *m*=3 maser sources vanished in *n*=100 samples after *dT*=10 years, you will get the most prausible lifetime ~300 years.
 ```
 import numpy as np
