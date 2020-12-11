@@ -8,18 +8,18 @@ with open(path.join(here,'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='scaleheight-lifetime',
-    packages=['scaleheight-lifetime'], 
+    name='ohirstar-scaleheight-lifetime',
+    packages=['ohirstar-scaleheight-lifetime'], 
     version='1.0.0', 
     license='MIT', 
     install_requires=['numpy','scipy'], 
     author='yuriuno', 
     author_email='k8688309@kadai.jp',
-    url='https://github.com/yuriuno/scaleheight-lifetime',
+    url='https://github.com/yuriuno/ohirstar-scaleheight-lifetime',
     description='Estimate a distribution and lifetime of star in the Galaxy.',
     long_description=long_description, 
     long_description_content_type='text/markdown',
-    keywords='scaleheight scale-height lifetime',
+    keywords='scaleheight scale-height lifetime OH/IR star',
 
     classifiers=[
         'License :: OSI Approved :: MIT License',
