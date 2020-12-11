@@ -13,7 +13,9 @@ The code was implemented on python3.7 and it uses the following python liblalies
 ## Setup
 **package installation**
 
-`pip install git+https://github.com/yuriuno/ohirstar-scaleheight-lifetime.git`
+`pip install ohirstar-scaleheight-lifetime` <br>
+or <br>
+`pip install git+https://github.com/yuriuno/ohirstar-scaleheight-lifetime.git` <br>
 
 ## Data analysis
 
