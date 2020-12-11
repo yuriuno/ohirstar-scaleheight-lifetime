@@ -1,4 +1,4 @@
-# scaleheight_lifetime
+# scaleheight-lifetime
 
 This scaleheight-lifetime module helps you estimate a prousible scale height and lifetime of stars.<br>
 The code was written during the investigation of the OH/IR stars distribution in the Galaxy ([Uno et al. 2020]()).
