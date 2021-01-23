@@ -1,8 +1,8 @@
 # ohirstar-scaleheight-lifetime
 
 This ohirstar-scaleheight-lifetime module helps you estimate a plausible scale height and lifetime of stars.<br>
-The code was written during the investigation of the OH/IR stars distribution in the Galaxy ([Uno et al. 2020]()).
-See the jupyternotebook (named as "OHIR-statistics.ipynb") for the detail of statistical analysis.
+The code was written during the investigation of the OH/IR stars distribution in the Galaxy ([Uno et al. 2020](https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stab176/6108287?login=true)).
+See the jupyternotebook (named as "OHIR-statistics.ipynb") for the detail of the statistical analysis.
 
 ## Requirements
 The code was implemented on python3.7 and it uses the following python liblalies. 
