@@ -68,13 +68,10 @@ sh.visualize(mlb, mflux)
 ### 2. Lifetime
 #### 2.1 A most plausible lifetime 
 Lifetime of transient phenomenon such as the duration of OH masers associated with evolved stars <br>
-can be estimated by consideing the probability 
-<img src="https://latex.codecogs.com/gif.latex?P^m_n"/> 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\bg_black&space;P^m_n" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{150}&space;\bg_black&space;P^m_n" title="P^m_n" /></a>
+can be estimated by consideing the probability <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\bg_black&space;P^m_n" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{150}&space;\bg_black&space;P^m_n" title="P^m_n" /></a>
 of detecting *m* dissapeared maser sources in *n* samples in  
 a given amount of time; *dT* as demonstrated by [Engels and Jimenes-Esteban (2007)](https://arxiv.org/pdf/0710.1697.pdf). 
-<br><img src="https://latex.codecogs.com/gif.latex?P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}"/> <br>
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{300}&space;\bg_black&space;P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\bg_black&space;P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" title="P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{200}&space;\bg_black&space;P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_black&space;P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" title="P_m^n&space;=&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" /></a>
 
 For example if you have *m*=3 maser sources vanished in *n*=100 samples after *dT*=10 years, you will get the most prausible lifetime ~300 years.
 ```
@@ -93,11 +90,9 @@ print(format(lifetime,'.1f'))
 ```
 #### 2.2 Upper limits of a lifetime
 Meanwhile, the upper limit of OH maser lifetime 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\bg_black&space;Q^m_n" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_black&space;Q^m_n" title="Q^m_n" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\bg_black&space;Q^m_n" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\bg_black&space;Q^m_n" title="Q^m_n" /></a>
 with different significance levels can be estimated as follows
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{300}&space;\bg_black&space;Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\bg_black&space;Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" title="Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" /></a>
-
-<img src="https://latex.codecogs.com/gif.latex?Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}"/>.
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{200}&space;\bg_black&space;Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_black&space;Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" title="Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}" /></a>
 
 The upper limits for lifeitme of OH masers assuming at least *m*=3 maser sources vanish in <br>
 *n*=100 samples in *dT*=10 years will be 505, 1258, 2000 years depending on significance levels (1, 2, 3σ).
