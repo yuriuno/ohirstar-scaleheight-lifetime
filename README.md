@@ -93,7 +93,7 @@ Meanwhile, the upper limit of OH maser lifetime
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\bg_black&space;Q^m_n" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_black&space;Q^m_n" title="Q^m_n" /></a>
 with different significance levels can be estimated as follows
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{200}&space;\bg_black&space;A^2" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_black&space;A^2" title="A^2" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{200}&space;\bg_black&space;A^2" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_white&space;A^2" title="A^2" /></a>
 
 <img src="https://latex.codecogs.com/gif.latex?Q_m^n&space;=&space;\sum_{i=m}^n&space;\frac{n!}{m!(n-m)!}\big(\frac{\delta&space;T}{T}\big)^m&space;\big(1&space;-&space;\frac{\delta&space;T}{T}\big)^{n-m}"/>.
 
