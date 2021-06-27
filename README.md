@@ -2,7 +2,7 @@
 
 This ohirstar-scaleheight-lifetime module helps you estimate a plausible scale height and lifetime of stars.<br>
 The code was written during the investigation of the OH/IR stars distribution in the Galaxy ([Uno et al. 2020](https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stab176/6108287?login=true)). <br>
-You can try this code very easily in your browser [here (Google Colaboratory).](https://colab.research.google.com/drive/1MtCiW11kbxC2BP3PPa9X6WEXfYcQ2Mf9) <br>
+Try this code in your browser [here (Google Colaboratory).](https://colab.research.google.com/drive/1MtCiW11kbxC2BP3PPa9X6WEXfYcQ2Mf9) <br>
 
 ## Requirements
 The code was implemented on python3.7 and it uses the following python liblalies. 
