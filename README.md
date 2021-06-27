@@ -90,7 +90,8 @@ print(format(lifetime,'.1f'))
 ```
 #### 2.2 Upper limits of a lifetime
 Meanwhile, the upper limit of OH maser lifetime 
-<img src="https://latex.codecogs.com/gif.latex?Q^m_n"/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{200}&space;\bg_black&space;A^2" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_black&space;Q^m_n" title="Q^m_n" /></a>
+
 with different significance levels can be estimated as follows
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{200}&space;\bg_black&space;A^2" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{200}&space;\bg_black&space;A^2" title="A^2" /></a>
