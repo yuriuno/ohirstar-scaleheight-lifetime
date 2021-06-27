@@ -27,6 +27,7 @@ import matplotlib.pyplot as plt
 from pylab import rcParams
 from mpl_toolkits.mplot3d import Axes3D
 from scipy import stats
+# import ohirstar_scaleheight_lifetime.ohirstar_scaleheight_lifetime as sl * try 
 import ohirstar-scaleheight-lifeitme.ohirstar-scaleheight-lifetme as sl
 
 sh            = sl.ScaleHeight()
